@@ -45,11 +45,11 @@ val is_null_for : Js.String.t -> Js.Json.t -> bool
 
 ## Advance usage
 
-Use your favorite `Result` type e.g. `CCResult` with functor `Bs_json_keypather_impl`.
+Use your favorite `Result` type e.g. `CCResult` with functor `Bs_json_keypather_impl.Make`.
 
 ```ocaml
 module My_json_keypather =
-  Bs_json_keypather_impl(CCResult)
+  Bs_json_keypather_impl.Make(CCResult)
 ```
 
 ## Development
