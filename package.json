@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "bs-jest": "^0.3.2",
+    "bs-platform": "^2.2.3"
+  },
+  "name": "@cxa/bs-json-keypather",
+  "version": "1.0.0",
+  "description": "Navigate JSON with keypath",
+  "main": "json_keypather.ml",
+  "scripts": {
+    "watch": "bsb -make-world -w",
+    "test": "bsb -make-world && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxa/bs-json-keypather.git"
+  },
+  "author": "Realazy Xian-an CHEN",
+  "license": "MIT"
+}
