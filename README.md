@@ -16,12 +16,12 @@ For this JSON:
 
 ```json
 {
-  title: { main: "Bs_json_keypather", sub: "is awesome" },
-  version: { major: 1, minor: 2 },
-  version_float: 1.2,
-  production_ready: true,
-  reason: null,
-  arr: [4, 5, 6]
+  "title": { "main": "Bs_json_keypather", "sub": "is awesome" },
+  "version": { "major": 1, "minor": 2 },
+  "version_float": 1.2,
+  "production_ready": true,
+  "reason": null,
+  "arr": [4, 5, 6]
 }
 ```
 
