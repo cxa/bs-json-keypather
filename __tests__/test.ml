@@ -35,7 +35,7 @@ let () =
     "bool_for"
     (fun () ->
        bool_for "production_ready" json
-       |> is_ok
+       |> get_ok_exn
        |> expect
        |> toBe true
     )

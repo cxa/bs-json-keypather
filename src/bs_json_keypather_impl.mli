@@ -9,7 +9,7 @@ module Make :
     val value_for :
       Js.String.t ->
       Js.Json.t -> (Js.Json.t -> 'a option) -> ('a, error) R.t
-    val bool_for : Js.String.t -> Js.Json.t -> (Js.boolean, error) R.t
+    val bool_for : Js.String.t -> Js.Json.t -> (bool, error) R.t
     val string_for : Js.String.t -> Js.Json.t -> (Js.String.t, error) R.t
     val float_for : Js.String.t -> Js.Json.t -> (float, error) R.t
     val int_for : Js.String.t -> Js.Json.t -> (int, error) R.t

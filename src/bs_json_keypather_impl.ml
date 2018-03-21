@@ -90,6 +90,7 @@ module Make (R: Result) = struct
 
   let bool_for keypath json =
     value_for keypath json Js.Json.decodeBoolean
+    |> map_result Js.to_bool
 
   let string_for keypath json =
     value_for keypath json Js.Json.decodeString

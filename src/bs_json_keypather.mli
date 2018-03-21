@@ -7,7 +7,7 @@ val json_for : Js.String.t -> Js.Json.t -> (Js.Json.t, error) Js.Result.t
 val value_for :
   Js.String.t ->
   Js.Json.t -> (Js.Json.t -> 'a option) -> ('a, error) Js.Result.t
-val bool_for : Js.String.t -> Js.Json.t -> (Js.boolean, error) Js.Result.t
+val bool_for : Js.String.t -> Js.Json.t -> (bool, error) Js.Result.t
 val string_for : Js.String.t -> Js.Json.t -> (Js.String.t, error) Js.Result.t
 val float_for : Js.String.t -> Js.Json.t -> (float, error) Js.Result.t
 val int_for : Js.String.t -> Js.Json.t -> (int, error) Js.Result.t
