@@ -1,5 +1,5 @@
 {
-  "name": "bs-json-keypather",
+  "name": "@cxa/bs-json-keypather",
   "bs-dev-dependencies": ["bs-jest"],
   "sources": [
     {

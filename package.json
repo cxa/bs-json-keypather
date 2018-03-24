@@ -4,7 +4,7 @@
     "bs-platform": "^2.2.3"
   },
   "name": "@cxa/bs-json-keypather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Navigate JSON with keypath",
   "main": "json_keypather.ml",
   "scripts": {
