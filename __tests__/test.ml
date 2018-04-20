@@ -13,7 +13,7 @@ let obj = [%bs.obj
       ; minor = 2
       }]
   ; version_float = 1.2
-  ; production_ready = Js.true_
+  ; production_ready = true
   ; reason = Js.Null.empty
   ; arr = [| 4; 5; 6|]
   }]
