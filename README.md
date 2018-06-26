@@ -28,18 +28,18 @@ For this JSON:
 You can navigate main title with `Bs_json_keypather.string_for "title.main" json`. More:
 
 ```ocaml
-val json_for : Js.String.t -> Js.Json.t -> (Js.Json.t, error) Js.Result.t
+val json_for : Js.String.t -> Js.Json.t -> (Js.Json.t, error) Belt.Result.t
 val value_for :
   Js.String.t ->
-  Js.Json.t -> (Js.Json.t -> 'a option) -> ('a, error) Js.Result.t
-val bool_for : Js.String.t -> Js.Json.t -> (bool, error) Js.Result.t
-val string_for : Js.String.t -> Js.Json.t -> (Js.String.t, error) Js.Result.t
-val float_for : Js.String.t -> Js.Json.t -> (float, error) Js.Result.t
-val int_for : Js.String.t -> Js.Json.t -> (int, error) Js.Result.t
+  Js.Json.t -> (Js.Json.t -> 'a option) -> ('a, error) Belt.Result.t
+val bool_for : Js.String.t -> Js.Json.t -> (bool, error) Belt.Result.t
+val string_for : Js.String.t -> Js.Json.t -> (Js.String.t, error) Belt.Result.t
+val float_for : Js.String.t -> Js.Json.t -> (float, error) Belt.Result.t
+val int_for : Js.String.t -> Js.Json.t -> (int, error) Belt.Result.t
 val object_for :
-  Js.String.t -> Js.Json.t -> (Js.Json.t Js.Dict.t, error) Js.Result.t
+  Js.String.t -> Js.Json.t -> (Js.Json.t Js.Dict.t, error) Belt.Result.t
 val array_for :
-  Js.String.t -> Js.Json.t -> (Js.Json.t array, error) Js.Result.t
+  Js.String.t -> Js.Json.t -> (Js.Json.t array, error) Belt.Result.t
 val is_null_for : Js.String.t -> Js.Json.t -> bool
 ```
 
