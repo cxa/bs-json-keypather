@@ -20,12 +20,12 @@ let obj = [%bs.obj
 
 let is_ok r =
   match r with
-  | Js.Result.Ok _ -> true
+  | Belt.Result.Ok _ -> true
   | _ -> false
 
 let get_ok_exn r =
   match r with
-  | Js.Result.Ok a -> a
+  | Belt.Result.Ok a -> a
   | _ -> failwith "Result is error, fail to extract value"
 
 let json = Js.Json.stringifyAny obj |> Js.Option.getExn |> Js.Json.parseExn

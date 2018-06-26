@@ -1,10 +1,10 @@
 {
   "devDependencies": {
     "bs-jest": "^0.3.2",
-    "bs-platform": "^3.0.0"
+    "bs-platform": "^3.1.5"
   },
   "name": "@cxa/bs-json-keypather",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Navigate JSON with keypath",
   "main": "json_keypather.ml",
   "scripts": {
